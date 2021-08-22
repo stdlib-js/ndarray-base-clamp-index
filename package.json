@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-clamp-index",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Restrict an index to the interval [0,max].",
   "license": "Apache-2.0",
   "author": {
