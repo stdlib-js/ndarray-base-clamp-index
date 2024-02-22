@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-clamp-index/tags). For example,
+
+```javascript
 import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@v0.2.1-deno/mod.js';
 ```
 
@@ -92,7 +97,7 @@ idx = clampIndex( 15, 10 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@v0.2.1-deno/mod.js';
+import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@deno/mod.js';
 
 var idx;
 var out;
