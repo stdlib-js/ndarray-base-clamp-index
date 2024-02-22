@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@esm/index.mjs';
+import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@v0.2.1-esm/index.mjs';
 ```
 
 #### clampIndex( idx, max )
@@ -97,7 +97,7 @@ idx = clampIndex( 15, 10 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@esm/index.mjs';
+import clampIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-clamp-index@v0.2.1-esm/index.mjs';
 
 var idx;
 var out;
